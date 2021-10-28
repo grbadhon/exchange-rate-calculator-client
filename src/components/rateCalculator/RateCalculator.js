@@ -72,7 +72,7 @@ const RateCalculator = () => {
                     <div class="form-group row">
                         <label for="inputText" class="col-sm-2 col-form-label">Value($)</label>
                         <div class="col-sm-7">
-                            <textarea onChange={(e) => setValue(parseFloat(e.target.value||0))} onKeyPress={(e)=>setValue(parseFloat(handleEnterPress(e)))} type="Text" class="form-control" id="inputText" placeholder="Text"></textarea>
+                            <textarea onChange={(e) => setValue(parseFloat(e.target.value||0))} onKeyPress={(e)=>setValue(parseFloat(handleEnterPress(e)))} type="Text" class="form-control" id="inputText" ></textarea>
                         </div>
                     </div>
                     <table class="table table-borderless">
@@ -136,13 +136,13 @@ const RateCalculator = () => {
                     <div class="form-group row">
                         <label for="inputText" class="col-sm-5 col-form-label">Exchange Rate</label>
                         <div class="col-sm-7">
-                            <textarea onChange={(e) => setExchangeRate(parseFloat(e.target.value||0))} onKeyPress={(e)=>setExchangeRate(parseFloat(handleEnterPress(e)))} type="Text" class="form-control" id="inputText" placeholder="Text"></textarea>
+                            <textarea onChange={(e) => setExchangeRate(parseFloat(e.target.value||0))} onKeyPress={(e)=>setExchangeRate(parseFloat(handleEnterPress(e)))} type="Text" class="form-control" id="inputText" ></textarea>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="inputText" class="col-sm-5 col-form-label">Product ID</label>
                         <div class="col-sm-7">
-                            <textarea onChange={(e) => setProductId(parseInt(e.target.value))} onKeyPress={(e)=>setProductId(parseInt(handleEnterPress(e)))} type="Text" class="form-control" id="inputText" placeholder="Text"></textarea>
+                            <textarea onChange={(e) => setProductId(parseInt(e.target.value))} onKeyPress={(e)=>setProductId(parseInt(handleEnterPress(e)))} type="Text" class="form-control" id="inputText" ></textarea>
                         </div>
                     </div>
 
