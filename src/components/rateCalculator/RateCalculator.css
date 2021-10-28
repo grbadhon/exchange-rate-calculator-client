@@ -1,0 +1,9 @@
+.table-footer{
+    border-top: 1px solid black !important;
+}
+.white-box{
+    border: 1px solid black !important;
+    background-color: white;
+    text-align: right;
+    align-items: center;
+}
